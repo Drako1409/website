@@ -526,7 +526,7 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>
-                    <Link href="http://dexcapital.tech/">
+                    <Link href="http://alphacapital.financial/">
                       <a target="_blank">
                         <div className="img">
                           <img src="/demo-img/ac.png" alt="image" />
