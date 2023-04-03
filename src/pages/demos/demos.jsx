@@ -348,7 +348,7 @@ const Demos = () => {
                     <Link href="https://partisiablockchain.com/">
                       <a target="_blank">
                         <div className="img">
-                          <img src="/projek/partisia.jpg" alt="image" />
+                          <img src="/projek/Partisia.jpg" alt="image" />
                         </div>
                         <div className="cont">
                           <h6>Partisia</h6>
