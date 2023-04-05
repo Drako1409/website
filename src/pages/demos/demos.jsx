@@ -539,6 +539,24 @@ const Demos = () => {
                   </div>
                 </div>
 
+                <div className="col-lg-3 col-md-6 items">
+                  <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                    <Link href="http://alphacapital.financial/">
+                      <a target="_blank">
+                        <div className="img">
+                          <img src="/demo-img/only.jpg" alt="image" />
+                        </div>
+                        <div className="cont">
+                          <h6>Only VC</h6>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
