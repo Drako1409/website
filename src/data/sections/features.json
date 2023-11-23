@@ -2,25 +2,25 @@
     {
         "id": 1,
         "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Blockchain",
+        "content": "low fe every transaction."
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "Super Apps",
+        "content": "City Quest is a super app which contains the core of the Beone-Chain ecosystem."
     },
     {
         "id": 3,
         "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "Salmonation",
+        "content": "Salmonation is a community forum that has a large base in Indonesia."
     },
     {
         "id": 4,
         "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Transaction",
+        "content": "Trnasaction in our Beone-Chain can be executed up to 30,000 TPS in one block."
     }
 ]

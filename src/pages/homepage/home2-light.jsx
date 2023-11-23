@@ -11,6 +11,7 @@ import FullTestimonials from "../../components/Full-testimonials/full-testimonia
 import Team2 from "../../components/Team2/team2";
 import Blogs2 from "../../components/blogs/Blogs2/blogs2";
 
+
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -35,11 +36,8 @@ const Homepage2 = () => {
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <Intro2 />
       <Services style="4item" />
-      <Video2 />
       <Portfolio grid={3} filterPosition="center" />
-      <FullTestimonials noPadding />
-      <Team2 />
-      <Blogs2 />
+      <Team2 /> 
       <CallToAction />
       <Footer />
     </LightTheme>

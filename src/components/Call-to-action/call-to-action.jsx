@@ -14,10 +14,10 @@ const CallToAction = ({img}) => {
               <div className="content sm-mb30">
                 <Split>
                   <h6 className="wow words chars splitting" data-splitting>
-                    Let’s Talk
+                    Let’s Discus
                   </h6>
                   <h2 className="wow words chars splitting" data-splitting>
-                    about your <br /> <b className="back-color">next project</b>
+                    about your <br /> <b className="back-color">Opinion</b>
                     .
                   </h2>
                 </Split>
@@ -25,16 +25,14 @@ const CallToAction = ({img}) => {
             </div>
 
             <div className="col-md-4 col-lg-3 valign">
-              <Link
-                href={`/contact/contact-dark`}
-              >
-                <a
+              
+                <a href='https://t.me/Salmonation'
+                
                   className="butn bord curve wow fadeInUp"
                   data-wow-delay=".5s"
                 >
                   <span>Get In Touch</span>
                 </a>
-              </Link>
             </div>
           </div>
         </div>

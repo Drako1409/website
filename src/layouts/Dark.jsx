@@ -10,16 +10,8 @@ const DarkTheme = ({ children, useSkin, mobileappstyle }) => {
     <>
       <Head>
         <link rel="stylesheet" href="/css/dark.css" />
-        {useSkin ? (
-          <link rel="stylesheet" href="/css/arch-skin-dark.css" />
-        ) : (
-          ""
-        )}
-        {mobileappstyle ? (
-          <link href="/css/mobile-app-dark.css" rel="stylesheet" />
-        ) : (
-          ""
-        )}
+        {useSkin ? (<link rel="stylesheet" href="/css/arch-skin-dark.css" />) : (null)}
+        {mobileappstyle ? (<link href="/css/mobile-app-dark.css" rel="stylesheet" />) : (null)}
       </Head>
       {children}
     </>
