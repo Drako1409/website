@@ -40,65 +40,12 @@ const Portfolio = ({ grid, filterPosition }) => {
               <span data-filter="*" className="active">
                 All
               </span>
-              <span data-filter=".brand">Architecture</span>
-              <span data-filter=".web">Education</span>
-              <span data-filter=".graphic">Tourism</span>
+              <span data-filter=".brand">Core Architecture</span>
             </div>
           </div>
 
           <div className="gallery full-width">
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6 lg-mr"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={``}>
-                  <a className="imago wow">
-                    <img src="/img/beone/Logo/btr.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Big Traveller</h6>
-                <span>
-                  <Link href="#0">Tourism</Link>, <Link href="#0">Virtual Tourism</Link>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/`}>
-                  <a className="imago wow">
-                    <img src="/img/Beone/Logo/metacost.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Metacost</h6>
-                <span>
-                  <a href="#0">Metaverse</a>, <a href="#0">Virtual Campus</a>
-                </span>
-              </div>
-            </div>
-
+            
             <div
               className={`${
                 grid === 3
